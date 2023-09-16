@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TALK NOW</title>
+    <link rel="stylesheet" href="chat.css">
+</head>
+<body>   
+     <div id="main">
+        <div id="nav">
+            <div id="logo">
+                <img src="./logo.png" alt="logo">
+                <p class="name">Talk Now</p>
+            </div>
+            <div id="ham">
+                <img src="./hamburger.png" alt="menu">
+            </div>
+        </div>
+        <div id="container">
+            <div id="people">
+                <div>
+                <h3>People in chat</h3>
+                <div class="userlist">
+                
+            </div>
+                </div>
+            </div>
+            <div id="chat">
+                <div id="msg">
+                <div class="join"><h3><p>Welcome here</h3></div>
+                    <div class="msg ">
+                   
+                    </div>
+                    
+            </div>
+                <div id="send">
+                    <input id="usermsg" type="text" placeholder="type your message.....">
+                    <button id="msgsend" type="button">Send</button>
+                 </div>
+            </div>
+      
+            
+
+        </div>
+    </div>   
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="/js/socket.js"></script>
+      
+</body>
+</html>
